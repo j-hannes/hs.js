@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "",
   "main": "hs.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/j-hannes/hs.js"
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/j-hannes/hs.js/issues"
   },
-  "homepage": "https://github.com/j-hannes/hs.js"
+  "homepage": "https://github.com/j-hannes/hs.js",
+  "dependencies": {
+    "ramda": "^0.10.0"
+  }
 }
