@@ -22,10 +22,6 @@ r.expose = function(env) {
  */
 r.words = r.split(' ');
 r.lines = r.split('\n');
-r.drop = r.skip
-r.dropWhile = r.curry(function(cond, list) {
-  return r.skipUntil(r.not(cond), list)
-})
 
 // export the extended ramda library
 module.exports = r
